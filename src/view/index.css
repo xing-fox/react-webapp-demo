@@ -1,0 +1,80 @@
+.wrapper {
+    width: 100%;
+    padding: .3rem 0 0 0;
+}
+
+.wrapper .wrapper-swiper {
+    width: 6.87rem;
+    height: 2.66rem;
+    margin: 0 .32rem;
+    background: black;
+}
+
+.wrapper .wrapper-swiper .ant-carousel .slick-slide {
+    text-align: center;
+    height: 2.66rem;
+    line-height: 2.66rem;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.wrapper .wrapper-swiper .ant-carousel .slick-slide h3 {
+    color: #fff;
+}
+
+.wrapper-content {
+    padding: .56rem 0 0 .58rem;
+}
+
+.wrapper-content .wrapper-content-title {
+    color: #222;
+    font-size: .36rem;
+    font-weight: bold;
+}
+
+.wrapper-bottom {
+    width: 100%;
+    height: .9rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.wrapper-bottom ul {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper-bottom ul li {
+    flex: 1;
+    color: #c8c8c8;
+    font-size: .2rem;
+    text-align: center;
+}
+
+.wrapper-bottom ul li .item-icon {
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.wrapper-bottom ul li.active {
+    color: #222;
+}
+.wrapper-bottom ul li.active .icon-need {
+    background-image: url(../assets/icon/need_select.png);
+}
+.icon-need {
+    background-image: url(../assets/icon/need.png);
+}
+.icon-service {
+    background-image: url(../assets/icon/service.png);
+}
+.icon-recharge {
+    background-image: url(../assets/icon/recharge.png);
+}
+.icon-home {
+    background-image: url(../assets/icon/home.png);
+}
